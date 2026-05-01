@@ -1,4 +1,4 @@
-## 💻 [PROJETOS PEQUENOS]
+## 💻 - PROJETOS PEQUENOS
 
 ---
 
