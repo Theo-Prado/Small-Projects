@@ -1,7 +1,7 @@
 may_four = True
 force = True
 
-if may_four == True and force == True:
+if may_four and force:
   print("04/05")
   print("Happy Star Wars Day!")
   print("May the Force be with you!")
