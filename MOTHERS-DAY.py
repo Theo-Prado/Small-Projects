@@ -1,8 +1,8 @@
-barriga_crescendo = True
-fome = True
-presente_de_deus = True
-bebe = False
+growing_belly = True
+hunger = True
+gift_from_god = True
+baby = False
 
-if barriga_crescendo and fome and presente_de_deus:
-  bebe = True
-  print("Feliz Dia das Mães!")
+if growing_belly and hunger and gift_from_god:
+  baby = True
+  print("Happy Mother's Day!")
