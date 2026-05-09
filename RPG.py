@@ -1,5 +1,5 @@
 class Item:
-    def _init_(self, nome, tipo, valor):
+    def __init__(self, nome, tipo, valor):
         self.nome = nome
         self.tipo = tipo
         self.valor = valor
@@ -13,7 +13,7 @@ class Item:
             print(f"{personagem.nome} ganhou {self.valor} de ataque!")
 
 class Personagem:
-    def _init_(self, nome, hp, ataque):
+    def __init__(self, nome, hp, ataque):
         self.nome = nome
         self.hp = hp
         self.ataque = ataque
@@ -33,8 +33,8 @@ class Personagem:
             return False
 
 class Mago(Personagem):
-    def _init_(self, nome):
-        super()._init_(nome, 70, 30)
+    def __init__(self, nome):
+        super().__init__(nome, 70, 30)
 
     def magia(self, alvo):
         alvo.hp -= 40
