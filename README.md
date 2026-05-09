@@ -1,9 +1,9 @@
-## 💻 - PROJETOS PEQUENOS
+## 💻 - SMALL PROJECTS
 
 ---
 
-- 📝 Projetos pequenos;
-- 💡 Ideias que podem virar algo grande;
-- 🐍 O básico do Python.
+- 📝 Small projects;
+- 💡 Ideas that can become something big;
+- 🐍 The basics of Python.
 
 ---
