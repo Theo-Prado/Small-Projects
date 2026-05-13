@@ -1,67 +1,67 @@
 import random
 
-nomes = ["O meu cachorro", "A minha gata", "O filho da vizinha","Meu primo"]
-verbos = ["comeu o", "destruiu o", "roubou o","ateou fogo no"]
-coisas = ["meu dever de casa.","meu documento.", "meu compromisso.","meu trabalho."]
+names = ["My dog", "My cat", "The neighbor's son", "My cousin"]
+verbs = ["ate the", "destroyed the", "stole the", "set fire to the"]
+things = ["my homework.", "my document.", "my appointment.", "my work."]
 
-print("Gerador de Desculpas Fúteis")
+print("Pointless Excuses Generator")
 print()
 
-ciclo = True
+running = True
 
-while ciclo:
-  print("1 - Gerar desculpa")
-  print("2 - Sair")
+while running:
+  print("1 - Generate excuse")
+  print("2 - Exit")
   print()
   try:
-    escolha = int(input("Digite sua escolha:"))
+    choice = int(input("Enter your choice:"))
     print()
-    if escolha == 1:
-     aleatorio0 = random.randint(0,5)
-     aleatorio1 = random.randint(0,3)
-     aleatorio2 = random.randint(0,3)
-     aleatorio3 = random.randint(0,3)
-     aleatorio4 = random.randint(0,100)
-     if aleatorio0 == 1:
-      aleatorio5 = random.randint(0,2)
-      if aleatorio5 == 0:
-        print("Desculpa Especial 1/3: A Estrela da Morte destruiu meu carro, então não pude vir trabalhar.")
+    if choice == 1:
+     random0 = random.randint(0, 5)
+     random1 = random.randint(0, 3)
+     random2 = random.randint(0, 3)
+     random3 = random.randint(0, 3)
+     random4 = random.randint(0, 100)
+     if random0 == 1:
+      random5 = random.randint(0, 2)
+      if random5 == 0:
+        print("Special Excuse 1/3: The Death Star destroyed my car, so I couldn't come to work.")
         print()
-        print("Credibilidade: 100%")
+        print("Credibility: 100%")
         print()
-        print("Resposta: Que a Força esteja com você!")
+        print("Response: May the Force be with you!")
         print()
-      elif aleatorio5 == 1:
-        print("Desculpa Especial 2/3: O Super Homem jogou o ônibus que eu estava em um vilão, por isso me atrasei.")
+      elif random5 == 1:
+        print("Special Excuse 2/3: Superman threw the bus I was on at a villain, so I was late.")
         print()
-        print("Credibilidade: 100%")
+        print("Credibility: 100%")
         print()
-        print("Resposta: Por Verdade, Justiça e um Amanhã Melhor!")
+        print("Response: For Truth, Justice, and a Better Tomorrow!")
         print()
       else:
-        print("Desculpa Especial 3/3: Fui convocado para lutar contra Lorde Voldmort, vou ter que faltar alguns dias no trabalho.")
+        print("Special Excuse 3/3: I was called to fight Lord Voldemort, so I'll have to miss a few days of work.")
         print()
-        print("Credibilidade: 100%")
+        print("Credibility: 100%")
         print()
-        print("Resposta: É leviOsa, não levioSA!")
+        print("Response: It's leviOsa, not levioSA!")
         print()
      else:
-      print(nomes[aleatorio1], verbos[aleatorio2], coisas[aleatorio3])
+      print(names[random1], verbs[random2], things[random3])
       print()
-      print(f"Credibilidade da desculpa de {aleatorio4}%")
+      print(f"Excuse credibility: {random4}%")
       print()
-      if aleatorio4 < 30:
-       print("Resposta: Para de mentir!")
-      elif aleatorio4 < 70:
-       print("Resposta: Sei sei...")
+      if random4 < 30:
+       print("Response: Stop lying!")
+      elif random4 < 70:
+       print("Response: Yeah, right...")
       else:
-       print("Resposta: Sério?! Eu sinto muito!")
+       print("Response: Seriously?! I'm so sorry!")
       print()
-    elif escolha == 2:
-     ciclo = False
-     print("Obrigado por usar o sistema!")
+    elif choice == 2:
+     running = False
+     print("Thanks for using the system!")
     else:
-      print("Digito inválido.")
+      print("Invalid digit.")
   except ValueError:
-    print("Digito inválido.")
+    print("Invalid digit.")
     print()
